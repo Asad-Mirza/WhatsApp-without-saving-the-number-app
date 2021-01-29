@@ -1,0 +1,65 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="#80000000"
+        android:id="@+id/line1"
+  android:padding="20dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:textSize="25dp"
+    android:textColor="@color/white"
+
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:text="Chat without saving WhatsApp number"/>
+    <EditText
+        android:textColor="@color/black"
+        android:textSize="15dp"
+
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter WhatsApp number here"
+         android:focusedByDefault="false"
+        android:textColorHint="@android:color/darker_gray"
+
+        android:inputType="phone"
+        android:digits="+12345678910"
+        android:id="@+id/edit_text2"/>
+
+<Button
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button"
+    android:textSize="15dp"
+    android:background="#25D366"
+    android:text="send message"/>
+</LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text="A small utility App by Mirza Asad"
+    android:layout_alignParentBottom="true"
+    android:textAlignment="center"
+    android:textSize="16dp"
+    android:background="#80000000"
+    android:padding="8dp"/>
+
+</RelativeLayout>
